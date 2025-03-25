@@ -1,0 +1,9 @@
+.main-container .row{
+  padding: 20px 0;
+}
+
+ .backbtn{
+    background: transparent;
+    padding: 5px 20px;
+    border: none;
+ }
