@@ -1,0 +1,248 @@
+body{
+    padding-top: 62px;
+    background-color: #f7f1e8;
+}
+
+.church-hero-section .video-container video{
+    object-fit: cover;
+    width: 100%;
+}
+
+.church-banner .image-container{
+    background-image: url('/Websites/Barber_web/images/church-carosuel3_3500x_0cdef2d0-2321-4204-873f-b6c0c80e04ee_1400x.webp');
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.church-banner {
+    padding: 20px 0px 0 0;
+    background-color: #f7f1e8;
+}
+
+
+.church-banner h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: fantasy;
+     
+}
+
+.church-banner .image-container h1{
+    font-size: 68px;
+    text-transform: capitalize;
+    color: white;
+    width: 58%;
+}
+
+.church-banner .image-container button{
+    background: transparent;
+    border-color: white;
+    font-size: 22px;
+    color: white;
+    padding: 7px 10px;
+    text-transform: capitalize;
+}
+
+.infinity-text-banner {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background: black;
+    height: 100px;
+}
+
+.infinity-text-banner h1 {
+    color: #f7f1e8;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 3px;
+    position: absolute;
+    animation: scrollText 5s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.church-banner-2{
+    background-image: url('/Websites/Barber_web/images/church-volcanic-hand_3500x_4a47439f-8b31-4e1c-94d7-aa164c9bf81c_1400x.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.church-banner-2 h1{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.church-banner-3{
+    background-image: url('/Websites/Barber_web/images/church-coastal-merged_3500x_581a5756-2089-4c52-85f1-9aa32525de43_1400x.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.church-banner-3 h1{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.church-banner-4{
+    background-image: url('/Websites/Barber_web/images/church-sun-merged_3500x_9cbf3db7-d01a-460b-a58d-540d594abaa8_1400x.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.church-banner-4 h1{
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+ 
+
+.church-container .row{
+    gap: 15px;
+    padding-top: 35px;
+}
+.church-container .row .col{
+    background-color: #ccb99d;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.church-container .row .col h2{
+     text-align: center;
+     width: 50%;
+     text-transform: capitalize;
+     color: #1c1c1c;
+     font-family: fantasy;
+}
+
+.church-container .row .col p{
+    text-align: center;
+    width: 90%;
+}
+
+
+.church-container2{
+    padding-top: 20px;
+}
+
+.church-container2 .row {
+    gap: 20px;
+}
+.church-container2 .row .col:nth-of-type(2){ 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 10px 20px;
+}
+
+.church-container2 .row .col{ 
+    padding: 0;   
+}
+
+.church-container2 .row .col img{ 
+     width: 100%;
+     height: 100%;  
+}
+
+.church-container2 .row .col:nth-of-type(2) .input-div{ 
+   width: 100%;
+}
+
+.church-container2 .row .col:nth-of-type(2) .input-div input{ 
+    width: 70%;
+    padding: 7px;
+    outline: none;
+ }
+
+
+ .church-container2 .row .col:nth-of-type(2) .input-div label{ 
+    display: block;
+    font-size: 18px;
+ }
+
+ .church-container2 .row .col:nth-of-type(2) .input-div button{ 
+    padding: 7px;
+    border: none;
+    border-bottom: 1.5px solid black;
+    width: 100px;
+    background: transparent;
+ }
+
+
+ @media(max-width: 477px){
+    .church-banner h1 {
+        font-size: 29px;
+        
+    }
+
+    .church-banner .image-container h1 {
+        font-size: 38px;
+    }
+
+    .church-banner-2 h1 {
+        font-size: 34px;
+    }
+
+    .church-banner-3 h1 {
+        font-size: 34px;
+    }
+    .church-banner-4 h1 {
+        font-size: 34px;
+    }
+
+    .church-container2 .row {
+        flex-direction: column;
+    }
+    .church-container2 .row .col:nth-of-type(2) .input-div input {
+        width: 58%;
+        padding: 4px;
+        outline: none;
+    }
+
+    .church-container2 .row .col:nth-of-type(2) .input-div button {
+        padding: 4px;
+ 
+    }
+
+    .infinity-text-banner{
+       height: 70px;
+    }
+
+    .infinity-text-banner h1 {
+        font-size: 30px;
+    }
+ }

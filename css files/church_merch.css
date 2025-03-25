@@ -1,0 +1,93 @@
+body{
+    padding-top: 62px;
+}
+
+
+.church-merch-hero{
+    background-image: url('/Websites/Barber_web/images/church-barber-merch_1400x.webp');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.church-merch-hero h1{
+    color: #f7f1e8;
+    padding-top: 41px;
+    padding-left: 36px;
+    font-size: 53px;
+    font-weight: 800;
+    letter-spacing: 1px;
+
+}
+
+.church-merch-row .col:nth-of-type(1){
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 20px;
+   background-color: #f7f1e8;
+}
+
+.church-merch-row .col:nth-of-type(2) img{
+    width: 100%;
+ }
+
+
+ .infinity-text-banner {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background: black;
+    height: 100px;
+}
+
+.infinity-text-banner h1 {
+    color: #f7f1e8;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 3px;
+    position: absolute;
+    animation: scrollText 5s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.church-merch-row2 .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .5px solid black;
+    background-color: #f7f1e8;
+    cursor: pointer;
+}
+
+.church-merch-row2 .col h5{
+     text-transform: capitalize;
+}
+
+
+.church-merch-row2 .col i{
+    color: rgb(235, 192, 53);
+}

@@ -1,0 +1,226 @@
+body{
+    padding-top: 62px;
+    background-color: #f7f1e8;
+}
+
+.promade-hero{
+    background-image: url('/Websites/Barber_web/images/three-heros_3500x_787830c7-4805-47f8-8600-528a47ea97ae_1400x.webp');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.promade-hero h1{
+    padding-top: 41px;
+    width: 50%;
+    color:  #f7f1e8;
+    font-size: 60px;
+    font-weight: 700; 
+    padding-left: 20px;
+}
+
+.promade-row .col{
+     padding: 0;
+}
+
+.promade-row .col img{
+    width: 100%;
+}
+
+.promade-row .col:nth-of-type(1){
+     background-color: #f7f1e8;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     padding: 20px;
+}
+
+
+.promade-row .col:nth-of-type(1) h2{
+     font-family: fantasy;
+     width: 80%;
+     letter-spacing: 2px;
+}
+
+
+.infinity-text-banner {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background: black;
+    height: 100px;
+}
+
+.infinity-text-banner h1 {
+    color: #f7f1e8;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0;
+    font-size: 60px;
+    letter-spacing: 3px;
+    position: absolute;
+    animation: scrollText 5s linear infinite;
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.promade-row2{
+    flex-wrap: nowrap;
+}
+.promade-row2 .col{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-right: 1px solid;
+   background: #f7f1e8;
+   padding: 0;
+}
+
+.promade-row2 .col i{
+     color: rgb(255, 153, 0);
+ }
+
+ .promade-row2 .col img{
+    width: 100%;
+}
+  
+
+ .promade-row3 .col-12 {
+     flex: 1 1 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+ .promade-row3 .col-12 img{
+    width: 100px;
+}
+
+.promade-banner{
+    background-image: url('/Websites/Barber_web/images/waves.jpg');
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.promade-banner .row{
+    justify-content:  space-evenly;
+    align-items: center;
+    height: 100%;
+ }
+
+ .promade-banner .col:nth-of-type(1){
+     padding-left: 40px;  
+ }
+
+.promade-banner .col img{
+   max-height: 260px;    
+}
+
+.promade-banner .col h2{
+   color: #f7f1e8;
+ }
+
+ .promade-banner .col p{
+    color: #f7f1e8;
+  }
+
+  .promade-banner2{
+    background-color: #a9a174;
+    padding: 20px;
+  }
+
+
+  .promade-banner2 div{
+    display: flex;
+     flex-direction: column;
+  }
+
+  .promade-banner2 span{
+    font-weight: 600;
+}
+
+  .promade-row3-container{
+    padding: 30px 15px;
+}
+  
+  @media(max-width: 768px){
+    .promade-row{
+        flex-direction: column;
+    }
+    .promade-hero h1 {
+        width: 100%; 
+        font-size: 36px;
+    }
+
+    .promade-row .col:nth-of-type(1) h2 {
+        letter-spacing: 1px;
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .promade-banner .row .col{
+        text-align: center;
+    }
+
+    
+         
+    .promade-row2 .col span{
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .promade-row2 {
+        flex-direction: column;
+    }
+
+    .promade-row2 .col {
+        border-right: none;
+    }
+
+    .promade-row3-container{
+        padding: 30px 15px;
+    }
+
+    .promade-banner {
+        height: 100%;
+    }
+
+    .promade-banner .col:nth-of-type(1) {
+        padding-left: 15px;
+    }
+
+    .promade-banner .col img {
+        max-height: 220px;
+    }
+
+
+    .infinity-text-banner h1 {
+        font-size: 31px;
+        letter-spacing: 2px;
+    }
+
+    .infinity-text-banner{
+        height: 70px;
+    }
+  }

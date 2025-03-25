@@ -1,0 +1,99 @@
+body{
+    padding-top: 62px;
+    background-color: #f7f1e8;
+}
+
+.learn-container{
+    padding-top: 80px;
+}
+
+.learn-container h2{
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+.learn-container .row .col .card .card-body{
+   background-color: #f7f1e8;
+}
+
+.learn-container .row .col .card .card-body a{
+    text-align: center;
+    color: #000000b0;
+    /* width: 100%; */
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+ }
+
+ .learn-container .row .col .card .card-body p{
+    text-align: center;  
+ }
+
+ .learn-container .row .col .card .card-body span{
+   float: right;
+   
+ }
+
+ .learn-container .row .col .card .card-body span:nth-of-type(2){
+   position: relative; 
+  }
+
+  .learn-container .row .col .card .card-body span:nth-of-type(1){
+     margin-left: 15px;
+   }
+
+ .learn-container .row .col .card .card-body span:nth-of-type(2)::after{
+    content: '';
+    background-color: #808080c4;
+    width: 1px;
+    height: 18px;
+    position: absolute;
+    bottom: 2px;
+    right: -7px;
+  }
+
+  .learn-container .cards-row{
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+
+  .learn-container .cards-row .card {
+    height: 100%; /* Card ka height same rahega */
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-container .cards-row .card-img-top {
+    height: 100px;  
+    object-fit: cover; /* Image ko crop kar ke equal size mein fit karega */
+}
+
+.learn-container .cards-row .card-body {
+    flex-grow: 1; /* Sab card bodies ko equal height dega */
+    background-color: #f7f1e8;
+    min-height: 230px;
+    
+}
+
+
+.learn-container .cards-row .card-body h2{
+    font-size: 22px;
+    text-align: center;
+    padding: 0;
+    font-weight: 700;
+    color: #000000b0;
+    margin-bottom: 20px;
+}
+
+.learn-container .cards-row .card-body p{
+     font-size: 12px;
+    margin-bottom: 20px;
+
+}
+  
+.learn-container .cards-row .card-body span{
+    float: right;
+    font-size: 13px;
+}
